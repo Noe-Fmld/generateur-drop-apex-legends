@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur de drop Apex Legends</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</head>
+<body class="bg-secondary">
+    
+    <section class="vh-100" style="background-color: #eee;">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-lg-9 col-xl-7">
+              <div class="card rounded-3">
+                <div class="card-body p-4">
+                  <h4 class="text-center my-3">Bienvenue sur un générateur de drop ou de légendes pour Apex Legends !</h4>
+                  <h6 class="text-center my-3" id="maj">(dernière mise à jour le 08/02/2022)</h6>
+                  <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <select class="custom-select col-sm-8 col-md-8" id="mapLegSelector" name="map">
+                            <option value="0" selected disabled>-- Sélectionner ce qu'il faut générer --</option>
+                            <option value="leg">Legends</button></option>
+                            <option disabled>----------------------------</option>
+                            <!-- 
+                            <option value="kc0" disabled>Kings Canyon (S0) -- SORTIE MAP (4.02.19)--</option>
+            
+                            
+                            <option value="kc2_1" disabled>Kings Canyon (S2 v1) -- Ajout du Repaire d'Octane + Cage + Confinement (à la place de Cascades) (13.08.19)--</option> 
+                            <option value="kc2_2" disabled>Kings Canyon (S2 v2) -- Ajout du Labo (Wraith) (3.09.19)--</option> 
+                            <option value="kc5_1" disabled>Kings Canyon (S5 v1) -- Destruction Ville Cimetière (12.05.20)--</option>
+                            <option value="kc5_2" disabled>Kings Canyon (S5 v2)</button> -- Ajout Salle des Cartes (Crypto) (23.06.20)--</option>
+                            <option value="kc8_1" disabled>Kings Canyon (S8 v1)</button> -- Nord de la map et Voyage de Mirage (3.02.21)--</option>
+                            <option value="kc8_2" disabled>Kings Canyon (S8 v2)</button> -- Ajout Traitement de Caustic (9.03.21)--</option>
+                            -->
+                            <option value="kc8_3">Kings Canyon (S8 v3)</button> <!-- Retrait du Voyage de Mirage (21.03.21)--></option>
+            
+                            <option disabled>----------------------------</option>
+                            <!--
+                            <option value="we3_1" disabled>World's Edge (S3 v1)</button> -- SORTIE MAP (1.10.19)--</option>
+                            
+                            <option value="we3_2" disabled>World's Edge (S3 v2)</button> -- Ajout Voyage de Mirage (12.12.19)--</option>
+                            <option value="we4_1" disabled>World's Edge (S4 v1)</button> -- Ajout Collecteur + destruction Capitol City (4.02.20)--</option>
+                            <option value="we4_2" disabled>World's Edge (S4 v2)</button> -- Epreuves (Bh) (7.04.20)--</option>
+                            <option value="we6" disabled>World's Edge (S6)</button> -- Retrait du Voyage de Mirage + Ajout Site de lancement + Décompte + Complexe(18.08.20)--</option>
+                            <option value="we10_1" disabled>World's Edge (S10 v1)</button> -- Nord de la map + centre à coté de Collecteur (3.08.21)--</option>
+                            -->
+                            <option value="we10_2" disabled>World's Edge (S10 v2)</button> <!-- Ajout de Big Maude (Rampart) (14.09.21)--></option>
+            
+                            <option disabled>----------------------------</option>
+            
+                            <!--
+                            <option value="oly7_1" disabled>Olympus (S7 v1)</button> -- SORTIE MAP (5.11.20)--</option>
+                            <option value="oly7_2" disabled>Olympus (S7 v2)</button> -- Ajout du Ring de Pathfinder (5.01.21)--</option>
+                            <option value="oly9" disabled>Olympus (S9)</button> -- Ajout Icarus (4.05.21)--</option>
+                            -->
+                            <option value="oly12">Olympus (S12)</button> <!-- Ajout Générateur Phasique (8.02.22)--></option>
+            
+                            <option disabled>----------------------------</option>
+            
+                            <option value="sp11">Storm Point (S11)</button> <!-- SORTIE MAP (2.11.21)--></option>
+
+                            <option disabled>----------------------------</option>
+                          </select>
+                        
+                        <div class="col-sm-1 "></div>
+                        <div class="col-sm-2">
+                            <button id="valider" class="btn btn-primary" type="button">Valider</button>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-sm-4 "></div>
+                        <div id="random-spawn" class="col-sm-4 text-center"></div>
+                        <div class="col-sm-4 "></div>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+    
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/fr.min.js" integrity="sha512-RAt2+PIRwJiyjWpzvvhKAG2LEdPpQhTgWfbEkFDCo8wC4rFYh5GQzJBVIFDswwaEDEYX16GEE/4fpeDNr7OIZw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js"></script>
+</body>
+</html>
