@@ -34,7 +34,8 @@ const legends = [
     {nom : "Valk", imgLeg : "legends/valkyrie.png"},
     {nom : "Seer", imgLeg : "legends/seer.png"},
     {nom : "Ash", imgLeg : "legends/ash.png"},
-    {nom : "Maggie", imgLeg : "legends/maggie.png"}
+    {nom : "Maggie", imgLeg : "legends/maggie.png"},
+    {nom : "Newcastle", imgLeg : "legends/newcastle.png"}
 ]
 
 
@@ -491,6 +492,26 @@ const sp11 = [
     {nom : "Station tempête / Gale station", imgSpwn : "sp/gale-station.jpg"},
     {nom : "Fermes piscicoles / Fish farm", imgSpwn : "sp/fish-farms.jpg"}
 ]
+const sp12 = [
+    {nom : "Point culminant / Highpoint", imgSpwn : "sp/high-point.jpg"},
+    {nom : "Paratonnerre / Lightning rod", imgSpwn : "sp/lighnting rod.JPG"},
+    {nom : "Poste de surveillance / Thunder watch", imgSpwn : "sp/thunder-watch.jpg"},
+    {nom : "Centre de commande / Command center", imgSpwn : "sp/command-center.jpg"},
+    {nom : "Mur / Wall", imgSpwn : "sp/the-wall.jpg"},
+    {nom : "Tremplin Nord / North pad", imgSpwn : "sp/north-pad.jpg"},
+    {nom : "Point de controle / Checkpoint", imgSpwn : "sp/checkpoint.jpg"},
+    {nom : "Cascades / Cascade falls", imgSpwn : "sp/cascade-falls.jpg"},
+    {nom : "Attrappe-tonnerres / Storm catcher", imgSpwn : "sp/storm-catcher.jpg"},
+    {nom : "Tremplin / Launch pad", imgSpwn : "sp/launch-pad.jpg"},
+    {nom : "Antenne / Antenna", imgSpwn : "sp/antenna.jpg"},
+    {nom : "Moulin / Mill", imgSpwn : "sp/the-mill.jpg"},
+    {nom : "Cénoté / Cenote cave", imgSpwn : "sp/cenote.jpg"},
+    {nom : "Baromètre / Barometer", imgSpwn : "sp/barometer.jpg"},
+    {nom : "Vaisseau échoué / Ship fall", imgSpwn : "sp/shipfall.jpg"},
+    {nom : "Station tempête / Gale station", imgSpwn : "sp/gale-station.jpg"},
+    {nom : "Fermes piscicoles / Fish farm", imgSpwn : "sp/fish-farms.jpg"},
+    {nom : "Créature térassée / Downed beast", imgSpwn : "sp/monstrous-storm-point-map-update-2.jpg.adapt.320w.jpg"}
+]
 
 
 
@@ -612,6 +633,11 @@ const playSpawnRandom = () => {
             spawn = getRandomIntInclusive(0, sp11.length - 1)
             spawnOn = sp11[spawn].nom;
             imageSpawn = sp11[spawn].imgSpwn;
+        }
+        if (map === "sp12") {
+            spawn = getRandomIntInclusive(0, sp12.length - 1)
+            spawnOn = sp12[spawn].nom;
+            imageSpawn = sp12[spawn].imgSpwn;
         }
         
         // randomSpawnShow.innerHTML = `Aller à / Drop on : <br><br><b>` + spawnOn + `</b><br><br>Soyez prêts, Légendes ! / Be ready, Legends !`;
