@@ -492,7 +492,7 @@ const sp11 = [
     {nom : "Station tempête / Gale station", imgSpwn : "sp/gale-station.jpg"},
     {nom : "Fermes piscicoles / Fish farm", imgSpwn : "sp/fish-farms.jpg"}
 ]
-const sp12 = [
+const sp13 = [
     {nom : "Point culminant / Highpoint", imgSpwn : "sp/high-point.jpg"},
     {nom : "Paratonnerre / Lightning rod", imgSpwn : "sp/lighnting rod.JPG"},
     {nom : "Poste de surveillance / Thunder watch", imgSpwn : "sp/thunder-watch.jpg"},
@@ -634,10 +634,10 @@ const playSpawnRandom = () => {
             spawnOn = sp11[spawn].nom;
             imageSpawn = sp11[spawn].imgSpwn;
         }
-        if (map === "sp12") {
-            spawn = getRandomIntInclusive(0, sp12.length - 1)
-            spawnOn = sp12[spawn].nom;
-            imageSpawn = sp12[spawn].imgSpwn;
+        if (map === "sp13") {
+            spawn = getRandomIntInclusive(0, sp13.length - 1)
+            spawnOn = sp13[spawn].nom;
+            imageSpawn = sp13[spawn].imgSpwn;
         }
         
         // randomSpawnShow.innerHTML = `Aller à / Drop on : <br><br><b>` + spawnOn + `</b><br><br>Soyez prêts, Légendes ! / Be ready, Legends !`;
