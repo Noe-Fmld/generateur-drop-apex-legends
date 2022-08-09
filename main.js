@@ -35,7 +35,8 @@ const legends = [
     {nom : "Seer", imgLeg : "legends/seer.png"},
     {nom : "Ash", imgLeg : "legends/ash.png"},
     {nom : "Maggie", imgLeg : "legends/maggie.png"},
-    {nom : "Newcastle", imgLeg : "legends/newcastle.png"}
+    {nom : "Newcastle", imgLeg : "legends/newcastle.png"},
+    {nom : "Vantage", imgLeg : "legends/vantage.png"}
 ]
 
 
@@ -195,7 +196,6 @@ const kc8_2 = [
     {nom : "Voyage de Mirage / Voyage Mirage", imgSpwn : "kc/voyage mirage- kc.jpg"}
 ]
 
-*/
 const kc8_3 = [
     {nom : "Lacs bigarrés / Spotted lakes", imgSpwn : "kc/spotted lakes.jpg"},
     {nom : "Artillerie, Artillery", imgSpwn : "kc/artillery.jpg"},
@@ -217,6 +217,29 @@ const kc8_3 = [
     {nom : "Plateforme / Rig", imgSpwn : "kc/rig.jpg"},
     {nom : "Salle des cartes / Crypto’s Map Room", imgSpwn : "kc/map-room.png"},
     {nom : "Site du crash / Site crash", imgSpwn : "kc/site crash.jpg"}
+]
+*/
+const kc14 = [
+    {nom : "Lacs bigarrés / Spotted lakes", imgSpwn : "kc/spotted lakes.jpg"},
+    {nom : "Artillerie, Artillery", imgSpwn : "kc/artillery.jpg"},
+    {nom : "Arène / Pit", imgSpwn : "kc/The_Pit.jpg"},
+    {nom : "Drainage / Runoff", imgSpwn : "kc/Runoff.jpg"},
+    {nom : "Base aérienne / Airbase", imgSpwn : "kc/Airbase.jpg"},
+    {nom : "Bunker", imgSpwn : "kc/Apex-Legends-bunker-580x334.jpg"},
+    {nom : "Marais / Swamps", imgSpwn : "kc/Swamps.jpg"},
+    {nom : "Cage", imgSpwn : "kc/the-cage.jpg"},
+    {nom : "Marché / Market", imgSpwn : "kc/market.jpg"},
+    {nom : "Barrage hydraulique / Hydro Dam", imgSpwn : "kc/Hydro_Dam.jpg"},
+    {nom : "Répulseur / Repulsor", imgSpwn : "kc/Repulsor.jpg"},
+    {nom : "Traitement de Caustic / Caustic Treatment", imgSpwn : "kc/Caustic-Treatment.jpg"},
+    {nom : "Repaire / Gauntlet", imgSpwn : "kc/gauntlet.jpg"},
+    {nom : "Confinement / Containement", imgSpwn : "kc/containment.jpg"},
+    {nom : "Labo / Labs", imgSpwn : "kc/labs.jpg"},
+    {nom : "Condensateur / Capacitor", imgSpwn : "kc/capacitor-apex-legends.jpg"},
+    {nom : "Plateforme / Rig", imgSpwn : "kc/rig.jpg"},
+    {nom : "Salle des cartes / Crypto’s Map Room", imgSpwn : "kc/map-room.png"},
+    {nom : "Site du crash / Site crash", imgSpwn : "kc/site crash.jpg"},
+    {nom : "Relique / Relic", imgSpwn : "kc/relic.jpg"}
 ]
 
 
@@ -423,7 +446,7 @@ const oly7_2 = [
     {nom : "Soir de combat / Fight night", imgSpwn : "oly/fightnightapex.jpg"}
 ]
 
-*/
+
 const oly9 = [
     {nom : "Docks", imgSpwn : "oly/docks.jpg"},
     {nom : "Transporteur / Carrier", imgSpwn : "oly/carrier.jpg"},
@@ -467,12 +490,36 @@ const oly12 = [
     {nom : "Générateur phasique / Phase driver", imgSpwn : "oly/phase-driver.png"},
     {nom : "Terminal", imgSpwn : "oly/terminal.png"}
 ]
+*/
+const oly13 = [
+    {nom : "Docks", imgSpwn : "oly/docks.jpg"},
+    {nom : "Transporteur / Carrier", imgSpwn : "oly/carrier.jpg"},
+    {nom : "Faille / Rift", imgSpwn : "oly/rift.jpg"},
+    {nom : "Réseau electrique / Power grid", imgSpwn : "oly/powergrid.jpg"},
+    {nom : "Turbine", imgSpwn : "oly/turbine.jpg"},
+    {nom : "Oasis", imgSpwn : "oly/oasis.jpg"},
+    {nom : "Dépot énergétique / Energy depot", imgSpwn : "oly/energydepot.jpg"},
+    {nom : "Jardins / Gardens", imgSpwn : "oly/garden.jpg"},
+    {nom : "Quartier des tours / Grow tours", imgSpwn : "oly/growtowers.jpg"},
+    {nom : "Hammond labs", imgSpwn : "oly/hammond-labs.jpg"},
+    {nom : "Résidences / Estates", imgSpwn : "oly/estates.jpg"},
+    {nom : "Elysium", imgSpwn : "oly/elysium.jpg"},
+    {nom : "Complexe hydroponique / Hydroponics", imgSpwn : "oly/hydroponics.jpg"},
+    {nom : "Place Bonsai / Bonsai Plaza", imgSpwn : "oly/bonsai.jpg"},
+    {nom : "Complexe solaire / Solar array", imgSpwn : "oly/solary array.jpg"},
+    {nom : "Canon orbital / Orbital cannon", imgSpwn : "oly/orbital cannon.jpg"},
+    {nom : "Soir de combat / Fight night", imgSpwn : "oly/fightnightapex.jpg"},
+    {nom : "Icarus", imgSpwn : "oly/icarus.png"},
+    {nom : "Générateur phasique / Phase driver", imgSpwn : "oly/phase-driver.png"},
+    {nom : "Terminal", imgSpwn : "oly/terminal.png"},
+    {nom : "Clinique / Clinic", imgSpwn : "oly/clinic.png"}
+]
 
 
 /********************************************* */
 /*************** STORM POINT ***************** */
 /********************************************* */
-
+/*
 const sp11 = [
     {nom : "Point culminant / Highpoint", imgSpwn : "sp/high-point.jpg"},
     {nom : "Paratonnerre / Lightning rod", imgSpwn : "sp/lighnting rod.JPG"},
@@ -492,6 +539,7 @@ const sp11 = [
     {nom : "Station tempête / Gale station", imgSpwn : "sp/gale-station.jpg"},
     {nom : "Fermes piscicoles / Fish farm", imgSpwn : "sp/fish-farms.jpg"}
 ]
+*/
 const sp13 = [
     {nom : "Point culminant / Highpoint", imgSpwn : "sp/high-point.jpg"},
     {nom : "Paratonnerre / Lightning rod", imgSpwn : "sp/lighnting rod.JPG"},
@@ -574,6 +622,11 @@ const playSpawnRandom = () => {
             spawnOn = kc8_3[spawn].nom;
             imageSpawn = kc8_3[spawn].imgSpwn;
         }
+        if (map === "kc14") {
+            spawn = getRandomIntInclusive(0, kc14.length - 1)
+            spawnOn = kc14[spawn].nom;
+            imageSpawn = kc14[spawn].imgSpwn;
+        }
         if (map === "we3_1") {
             spawn = getRandomIntInclusive(0, we3_1.length - 1)
             spawnOn = we3_1[spawn].nom;
@@ -626,8 +679,13 @@ const playSpawnRandom = () => {
         }
         if (map === "oly12") {
             spawn = getRandomIntInclusive(0, oly12.length - 1)
-            spawnOn = oly9[spawn].nom;
+            spawnOn = oly12[spawn].nom;
             imageSpawn = oly12[spawn].imgSpwn;
+        }
+        if (map === "oly13") {
+            spawn = getRandomIntInclusive(0, oly13.length - 1)
+            spawnOn = oly13[spawn].nom;
+            imageSpawn = oly13[spawn].imgSpwn;
         }
         if (map === "sp11") {
             spawn = getRandomIntInclusive(0, sp11.length - 1)
